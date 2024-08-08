@@ -29,7 +29,7 @@ public class ButtonActionListener implements ActionListener {
             mainFrame.getContentPane().add(mes);
             JButton submit = new JButton("Submit");
             submit.setBounds(50,150,90,30);
-            JButton saveToFile = new JButton("Save to...");
+            JButton saveToFile = new JButton("Save to file");
             saveToFile.setBounds(840,150,90,30);
             JLabel resLabel=new JLabel();
             resLabel.setText("Script result: ");
